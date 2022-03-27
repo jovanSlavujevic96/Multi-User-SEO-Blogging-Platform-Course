@@ -2,7 +2,7 @@
 
 Install node.js for Win
 
-Initialize the server
+Initialize the backend project
 > $ cd backend
 >
 > $ npm init -y
@@ -52,3 +52,6 @@ Install the following npm packages for auth and blog:
 
 To generate unique usernames we're going to install shortid npm package
 > $ npm install shortid
+
+Run server:
+> $ npm run start
