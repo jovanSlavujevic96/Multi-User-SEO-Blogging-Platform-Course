@@ -3,10 +3,17 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const cors = require('cors');
+const { default: mongoose } = require('mongoose');
 require('dotenv').config();
 
 // app
 const app = express();
+
+// db
+mongoose
+    .connect(process.env.DATABASE_LOCAL, {})
+    .then(() => console.log('DB connected'))
+    .catch((err) => console.log("DB Error => ", err));
 
 // middlewares
 app.use(morgan('dev'));
