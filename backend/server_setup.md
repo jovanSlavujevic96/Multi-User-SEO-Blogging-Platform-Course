@@ -31,11 +31,11 @@ Install MongoDB & Robo3T
 Update PATH environment variable to include mongod bin dir
 
 Run command prompt as Administrator
-> cd C:\
+> $ cd C:\
 >
-> md "\data\db"
+> $ md "\data\db"
 >
-> `mongod --dbpath="C:\data\db"`
+> $ `mongod --dbpath="C:\data\db"`
 
 ## Install packages for auth and blog
 
@@ -48,4 +48,7 @@ Install the following npm packages for auth and blog:
 - slugify (to generate slug)
 - string-strip-html (to create a new blog)
 
-> npm install express-validator jsonwebtoken express-jwt formidable lodash slugify string-strip-html
+> $ npm install express-validator jsonwebtoken express-jwt formidable lodash slugify string-strip-html
+
+To generate unique usernames we're going to install shortid npm package
+> $ npm install shortid
