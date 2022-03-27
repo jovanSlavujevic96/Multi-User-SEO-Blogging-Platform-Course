@@ -7,6 +7,7 @@ This repository refers to attending the Udemy course <a href="https://www.udemy.
 ## Resources
 
 - Node.js & npm (https://nodejs.org/en/download/)
+- Postman - backend testing tool (https://www.postman.com/)
 
 ## What you'll learn
 

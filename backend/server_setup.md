@@ -16,6 +16,6 @@ Install the following packages:
 - morgan (to see endpoints on terminal)
 - nodemon (to run server)
 - dotenv (to access environment variables - from .env file)
-- cors (to make our API accessible to the front client)
+- cors (to make our API accessible to the front client / to avoid CORS errors)
 
 > $ npm install express mongoose body-parser cookie-parser morgan nodemon dotenv cors
