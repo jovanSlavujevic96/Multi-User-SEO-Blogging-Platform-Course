@@ -18,6 +18,8 @@ import {
     DropdownMenu,
     DropdownItem } from 'reactstrap';
 
+import '.././node_modules/nprogress/nprogress.css'; // import CSS file (supported on newer next.js by default)
+
 Router.onRouteChangeStart = (url) => NProgress.start();
 Router.onRouteChangeComplete = (url) => NProgress.done();
 Router.onRouteChangeError = (url) => NProgress.done();

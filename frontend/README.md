@@ -24,3 +24,6 @@ To manage cookies we need to install additional package:
 
 To have a progress animation during page loading install this package:
 > $ npm i nprogress
+
+`DEPRECATED:` To use CSS styles in next.js we must install:
+> $ npm i @zeit/next-css
