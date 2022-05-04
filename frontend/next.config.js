@@ -16,6 +16,8 @@ module.exports = {
         PRODUCTION: false,
         DOMAIN_DEVELOPMENT: 'http://localhost:3000',
         DOMAIN_PRODUCTION: 'https://seoblog.com',
-        FB_APP_ID: '517904876628131' // SEOBLOG_LOCAL FB APP
+        FB_APP_ID: '517904876628131', // SEOBLOG_LOCAL FB APP
+        DISQUS_SHORTNAME: 'seoblog-tflljh3cad' // found on Universal Code install instructions
+                                               // within URL 'https://seoblog-tflljh3cad.disqus.com/embed.js'
     }
 };
